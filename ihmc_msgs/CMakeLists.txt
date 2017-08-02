@@ -10,18 +10,24 @@ find_package(catkin REQUIRED COMPONENTS
  add_message_files(
    FILES
    AbortWalkingRosMessage.msg
+   AdjustFootstepRosMessage.msg
    ArmDesiredAccelerationsRosMessage.msg
    ArmTrajectoryRosMessage.msg
+   ChestHybridJointspaceTaskspaceTrajectoryRosMessage.msg
    ChestTrajectoryRosMessage.msg
    EndEffectorLoadBearingRosMessage.msg
    EuclideanTrajectoryPointRosMessage.msg
+   FootLoadBearingRosMessage.msg
+   FootTrajectoryRosMessage.msg
    FootstepDataListRosMessage.msg
    FootstepDataRosMessage.msg
    FootstepStatusRosMessage.msg
-   FootTrajectoryRosMessage.msg
+   FrameInformationRosMessage.msg
    GoHomeRosMessage.msg
    HandDesiredConfigurationRosMessage.msg
+   HandHybridJointspaceTaskspaceTrajectoryRosMessage.msg
    HandTrajectoryRosMessage.msg
+   HeadHybridJointspaceTaskspaceTrajectoryRosMessage.msg
    HeadTrajectoryRosMessage.msg
    HighLevelStateChangeStatusRosMessage.msg
    HighLevelStateRosMessage.msg
@@ -36,6 +42,7 @@ find_package(catkin REQUIRED COMPONENTS
    Point2dRosMessage.msg
    SE3TrajectoryPointRosMessage.msg
    SO3TrajectoryPointRosMessage.msg
+   SpineDesiredAccelerationsRosMessage.msg
    StopAllTrajectoryRosMessage.msg
    SupportPolygonRosMessage.msg
    TrajectoryPoint1DRosMessage.msg
